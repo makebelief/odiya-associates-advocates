@@ -1,14 +1,12 @@
 # Odiya & Associates Advocates
 
-Cecilia Mwaura template adaptation for Odiya & Associates Advocates, Nairobi.
+Production-ready static website based on the Cecilia Mwaura law-firm structure.
 
-## Contact
-- +254 729 818 591
-- odiyalaw@gmail.com
-- Bruce House, 4th Floor, North Wing, Standard Street, Nairobi, Kenya
-- P.O. Box 3403-00100, Nairobi
+## Firm details
+- Principal: Jane Nyabiage Odiya
+- Phone: 0729 818 591
+- Email: odiyalaw@gmail.com
+- Office: Bruce House, 4th Floor, North Wing, Standard Street, Nairobi CBD
 
-## Build
-Static HTML/CSS/JS site ready for GitHub and Vercel deployment.
-
-Hero photography: Pexels / Ninthgrid, photo 30688596 (Black African mixed-gender professional meeting).
+## Deploy
+Deploy the project root to Vercel.

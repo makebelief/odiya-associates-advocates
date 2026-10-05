@@ -4,7 +4,7 @@
 .hero{position:relative;min-height:calc(100svh - 96px);display:flex;align-items:center;color:white;background:linear-gradient(90deg,rgba(0,0,0,.88),rgba(0,0,0,.53) 53%,rgba(0,0,0,.2)),url('https://images.pexels.com/photos/1181735/pexels-photo-1181735.jpeg?auto=compress&cs=tinysrgb&w=2200') center/cover no-repeat}.hero:after{content:"";position:absolute;inset:auto 0 0;height:100px;background:linear-gradient(transparent,rgba(0,0,0,.5));pointer-events:none}.hero .container{position:relative;z-index:2}.hero-content{max-width:760px;padding:94px 0 108px}.eyebrow{display:flex;align-items:center;gap:12px;color:var(--gold2);font-size:.72rem;text-transform:uppercase;letter-spacing:.17em;font-weight:800}.eyebrow:before{content:"";width:34px;height:2px;background:var(--gold)}.display,.section-title,.page-title{font-family:Georgia,"Times New Roman",serif;font-weight:500;letter-spacing:-.035em}.display{font-size:clamp(3.55rem,6.4vw,7rem);line-height:.94;margin:24px 0}.display span{color:var(--gold2)}.lead{font-size:1.08rem;line-height:1.75;color:#eeeeee;max-width:620px}.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{min-height:50px;padding:0 24px;display:inline-flex;align-items:center;justify-content:center;font-weight:800;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;border:1px solid transparent}.btn-gold{background:var(--gold);color:#fff}.btn-ghost{border-color:rgba(255,255,255,.55);color:white;background:rgba(255,255,255,.05)}.btn-navy{background:var(--navy2);color:white}.btn-light{background:white;color:var(--navy2)}.hero-meta{display:flex;gap:30px;flex-wrap:wrap;margin-top:34px;color:#e7e7e7;font-size:.79rem}.hero-meta span{display:flex;align-items:center;gap:8px}.hero-meta i{width:6px;height:6px;border-radius:50%;background:var(--gold)}
 .section{padding:96px 0}.section-title{font-size:clamp(2.5rem,5vw,4.6rem);line-height:1.02;margin:18px 0 22px}.section-copy{color:var(--muted);line-height:1.78;max-width:700px}.intro-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:80px;align-items:center}.values{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:34px}.value{padding:18px;border-top:2px solid var(--gold);background:#fff}.value b{display:block;color:var(--navy);margin-bottom:7px}.value span{font-size:.82rem;line-height:1.55;color:var(--muted)}.logo-animation{background:var(--navy);padding:18px;box-shadow:var(--shadow);position:relative;overflow:hidden}.logo-animation img,.logo-animation video{width:100%;aspect-ratio:16/9;object-fit:cover}.logo-animation small{display:block;color:#f0f0f0;font-size:.73rem;letter-spacing:.08em;text-align:center;padding:12px 6px 3px}
 .practice-section{background:#f2f2f2}.practice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:40px}.practice-card{position:relative;min-height:360px;overflow:hidden;background:#123;color:white}.practice-card:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05),rgba(0,0,0,.9));z-index:1}.practice-card:after{content:"";position:absolute;inset:0;background:var(--image) center/cover no-repeat;transition:transform .55s ease;z-index:0}.practice-card:hover:after{transform:scale(1.04)}.practice-content{position:absolute;left:24px;right:24px;bottom:24px;z-index:2}.practice-number{font-size:.7rem;letter-spacing:.14em;color:var(--gold2)}.practice-card h3{font-family:Georgia,serif;font-size:1.85rem;margin:.55rem 0 .5rem;font-weight:500}.practice-card p{font-size:.84rem;color:#e7e7e7;line-height:1.55;margin:0 0 12px}.practice-link{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:var(--gold2)}
-.partner-section{background:var(--navy2);color:white}.partner-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:76px;align-items:center}.partner-visual{min-height:620px;background:url('/assets/media/jane-odiya.png') center 18%/cover no-repeat;position:relative;box-shadow:var(--shadow)}.partner-badge{position:absolute;left:22px;right:22px;bottom:22px;background:rgba(7,7,7,.92);padding:18px 20px;border-left:3px solid var(--gold)}.partner-badge strong{display:block;font-family:Georgia,serif;font-size:1.45rem;font-weight:500}.partner-badge span{font-size:.76rem;color:#d5d5d5}.partner-section .section-copy{color:#d0d0d0}.partner-points{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}.partner-point{padding:18px;border:1px solid rgba(255,255,255,.15)}.partner-point b{display:block;color:var(--gold2);margin-bottom:7px}.partner-point span{color:#d4d4d4;font-size:.83rem;line-height:1.5}
+.partner-section{background:var(--navy2);color:white}.partner-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:76px;align-items:center}.partner-visual{min-height:620px;background:url('/assets/media/caroline-hamba-barrister.png') center 18%/cover no-repeat;position:relative;box-shadow:var(--shadow)}.partner-badge{position:absolute;left:22px;right:22px;bottom:22px;background:rgba(7,7,7,.92);padding:18px 20px;border-left:3px solid var(--gold)}.partner-badge strong{display:block;font-family:Georgia,serif;font-size:1.45rem;font-weight:500}.partner-badge span{font-size:.76rem;color:#d5d5d5}.partner-section .section-copy{color:#d0d0d0}.partner-points{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}.partner-point{padding:18px;border:1px solid rgba(255,255,255,.15)}.partner-point b{display:block;color:var(--gold2);margin-bottom:7px}.partner-point span{color:#d4d4d4;font-size:.83rem;line-height:1.5}
 .image-band{display:grid;grid-template-columns:1.1fr .9fr;min-height:520px;background:var(--navy)}.image-band .photo{background:url('https://images.pexels.com/photos/5324916/pexels-photo-5324916.jpeg?auto=compress&cs=tinysrgb&w=1800') center/cover no-repeat}.image-band .copy{display:flex;flex-direction:column;justify-content:center;padding:70px clamp(30px,6vw,90px);color:white}.image-band .copy p{color:#d7d7d7;line-height:1.75}.booking-band{background:var(--gold);padding:54px 0}.booking-band .container{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:center}.booking-band h2{font-family:Georgia,serif;font-size:clamp(2rem,4vw,3.4rem);margin:0;color:#fff;font-weight:500}.booking-band p{margin:.5rem 0 0;color:#fff}
 .insight-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}.insight-card{border:1px solid var(--line);padding:28px;background:white}.insight-card .tag{color:var(--gold);font-weight:800;font-size:.7rem;text-transform:uppercase;letter-spacing:.12em}.insight-card h3{font-family:Georgia,serif;font-size:1.55rem;line-height:1.15;margin:.8rem 0;font-weight:500}.insight-card p{color:var(--muted);line-height:1.65;font-size:.9rem}.insight-card a{color:var(--gold);font-weight:800;font-size:.75rem;text-transform:uppercase;letter-spacing:.08em}
 .page-hero{background:linear-gradient(135deg,var(--navy2),#6f0000);color:white;padding:100px 0 82px}.page-title{font-size:clamp(3rem,6vw,5.8rem);line-height:.98;margin:18px 0 20px}.page-hero p{max-width:720px;color:#e4e4e4;line-height:1.75}.page-main{padding:84px 0}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:start}.info-card{border:1px solid var(--line);padding:28px;background:white}.info-card h3{font-family:Georgia,serif;font-size:1.7rem;margin:0 0 12px;font-weight:500}.info-card p,.info-card li{color:var(--muted);line-height:1.75}.contact-grid{display:grid;grid-template-columns:.82fr 1.18fr;gap:54px}.contact-list{display:grid;gap:14px}.contact-item{padding:20px;border:1px solid var(--line);background:white}.contact-item small{display:block;color:var(--gold);font-weight:800;text-transform:uppercase;letter-spacing:.1em;margin-bottom:6px}.contact-item a,.contact-item span{color:var(--navy);font-weight:700}.contact-form{display:grid;grid-template-columns:1fr 1fr;gap:14px}.contact-form .full{grid-column:1/-1}.contact-form input,.contact-form textarea,.contact-form select{width:100%;border:1px solid var(--line);padding:15px 16px;background:white;color:var(--ink);font:inherit}.contact-form textarea{min-height:160px;resize:vertical}.small-note{font-size:.82rem;color:var(--muted);line-height:1.6}.map-wrap{background:#f2f2f2;padding:0 0 90px}.map-head{padding:76px 0 28px}.map-shell{width:min(1400px,calc(100% - 28px));margin:auto;overflow:hidden;box-shadow:var(--shadow);background:white}.map-shell iframe{display:block;width:100%;height:560px;border:0}.map-footer{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:22px 28px}.map-footer strong{display:block;color:var(--navy);font-size:1rem}.map-footer span{color:var(--muted);font-size:.86rem}
@@ -152,113 +152,268 @@ img,video,iframe{max-width:100%}
   .contact-rail{top:60%}
 }
 
+/* Guto Ogechi brand + photography */
+:root{--navy:#141516;--navy2:#070707;--blue:#9f0008;--gold:#df0615;--gold2:#ff3947;--ivory:#f7f4ed;--paper:#fff;--ink:#141414;--muted:#686868;--line:#e1e1e1}
+.hero{background:linear-gradient(90deg,rgba(0,0,0,.9),rgba(0,0,0,.56) 54%,rgba(0,0,0,.22)),url('https://images.pexels.com/photos/1181735/pexels-photo-1181735.jpeg?auto=compress&cs=tinysrgb&w=2200') center/cover no-repeat}
+.brand-mark{object-fit:contain}
+.footer-brand{width:310px;max-width:100%}.footer-brand img{filter:none}
+.logo-animation video{background:#050505}
+.partner-visual{background-image:url('/assets/media/caroline-hamba-barrister.png');background-position:center 12%;background-color:#111}
+.hamba-band{background-image:linear-gradient(rgba(0,0,0,.12),rgba(0,0,0,.12)),url('https://images.pexels.com/photos/5324916/pexels-photo-5324916.jpeg?auto=compress&cs=tinysrgb&w=1800')!important;background-position:center!important;background-size:cover!important}
+.profile-main-photo{min-height:660px;background:#efefef;overflow:hidden;box-shadow:var(--shadow)}.profile-main-photo img{width:100%;height:100%;min-height:660px;object-fit:cover;object-position:center 12%}
+.partner-profile-page{align-items:center}
+.light-points .partner-point{border-color:var(--line)}.light-points .partner-point span{color:var(--muted)}
+.compact-gallery{grid-template-columns:repeat(5,1fr);gap:10px;margin-top:48px}.compact-gallery img{height:210px;object-fit:cover;object-position:center top}
+@media(max-width:1020px){.compact-gallery{grid-template-columns:repeat(3,1fr)}.profile-main-photo,.profile-main-photo img{min-height:560px}}
+@media(max-width:720px){.compact-gallery{grid-template-columns:1fr 1fr}.compact-gallery img{height:auto;aspect-ratio:1/1;object-fit:cover}.partner-visual{background-position:center 10%}.profile-main-photo,.profile-main-photo img{min-height:0;height:auto}.profile-main-photo img{object-fit:contain}.hero{background-position:62% center}}
+@media(max-width:390px){.compact-gallery{grid-template-columns:1fr}.compact-gallery img{aspect-ratio:auto;height:auto}}
+
 /* Odiya & Associates Advocates — Cecilia template adaptation */
 :root{
-  --navy:#6f2c12;
-  --navy2:#3b170d;
-  --blue:#9b3a16;
-  --gold:#d4a12a;
-  --gold2:#e3b94f;
-  --ivory:#fbf7f0;
-  --paper:#ffffff;
-  --ink:#211611;
-  --muted:#776d68;
-  --line:#eadfd7;
+  --navy:#071a35;
+  --navy2:#031127;
+  --blue:#0e3c77;
+  --gold:#d5a11e;
+  --gold2:#f0c24d;
+  --ivory:#f7f4ed;
+  --paper:#fff;
+  --ink:#141414;
+  --muted:#686868;
+  --line:#e3e5e9;
 }
-.topline{background:linear-gradient(90deg,#792c12 0 70%,#d7221f 70% 84%,#d4a12a 84%)}
-.site-header{background:rgba(255,255,255,.985);border-bottom:1px solid #eee2d9;box-shadow:0 6px 24px rgba(66,25,12,.07)}
-.nav{gap:18px}
-.brand{min-width:250px;max-width:310px;display:flex;align-items:center;overflow:visible}
-.brand-logo-wide{display:block;width:100%;height:auto;max-height:62px;object-fit:contain;object-position:left center}
-.brand-mark,.brand-name{display:none!important}
-.nav-links{gap:20px;white-space:nowrap;align-items:center}
-.nav-links a{font-size:.71rem;letter-spacing:.075em;color:#392018;white-space:nowrap;padding:10px 0}
-.nav-links a:hover,.nav-links a.active{color:#c3221d}
-.nav-cta{display:inline-flex;align-items:center;justify-content:center;text-align:center;white-space:nowrap;min-height:48px;padding:0 18px;background:#7a2d12;color:#fff;border:1px solid #7a2d12}
-.nav-cta:hover{background:#a43b16;border-color:#a43b16}
-.menu-btn{border-color:#ddcec4}
-.menu-btn span,.menu-btn:before,.menu-btn:after{background:#7a2d12}
+.topline{background:linear-gradient(90deg,var(--navy) 0 72%,var(--gold) 72%)}
+.site-header{background:rgba(3,17,39,.975);border-bottom:1px solid rgba(255,255,255,.10)}
+.brand{min-width:260px;gap:10px}
+.brand-mark{width:60px;height:60px;object-fit:contain;object-position:center;flex:0 0 auto}
+.brand-name b{font-size:1.03rem;white-space:nowrap}
+.brand-name small{font-size:.56rem;letter-spacing:.12em;color:var(--gold2);white-space:nowrap}
+.nav{gap:22px}
+.nav-links{gap:18px;white-space:nowrap}
+.nav-links a{font-size:.72rem;letter-spacing:.10em}
+.nav-cta{display:inline-flex;align-items:center;justify-content:center;text-align:center;white-space:nowrap;min-height:48px;padding:0 16px;background:var(--gold);color:#071426}
+.nav-cta:hover{background:var(--gold2)}
 .hero{
-  background-image:
-    linear-gradient(90deg,rgba(38,15,8,.66) 0%,rgba(38,15,8,.49) 40%,rgba(38,15,8,.20) 72%,rgba(38,15,8,.12) 100%),
-    url('https://images.pexels.com/photos/30688596/pexels-photo-30688596.jpeg?auto=compress&cs=tinysrgb&w=2200');
-  background-position:center 45%;
-  background-size:cover;
-  background-repeat:no-repeat;
+  background:
+    linear-gradient(90deg,rgba(3,17,39,.87) 0%,rgba(3,17,39,.73) 43%,rgba(3,17,39,.42) 70%,rgba(3,17,39,.30) 100%),
+    url('https://images.pexels.com/photos/1181735/pexels-photo-1181735.jpeg?auto=compress&cs=tinysrgb&w=2200') center 48%/cover no-repeat;
 }
-.hero:after{background:linear-gradient(transparent,rgba(40,16,8,.22))}
-.hero-content{max-width:730px}
-.eyebrow{color:#d8aa45}
-.display span{color:#efbd49}
-.btn-gold{background:#d39c27;color:#20130c;display:inline-flex;align-items:center;justify-content:center;text-align:center}
-.btn-gold:hover{background:#e2b94d}
-.btn-navy{background:#6f2c12;color:white}
-.page-hero{background:linear-gradient(135deg,#3a170d,#7a2d12 72%,#a43b16)}
-.logo-animation{background:#35150d}
-.logo-animation video{background:#35150d}
-.partner-visual{background-image:url('/assets/media/jane-odiya.png')!important;background-position:center 22%!important;background-size:cover!important;background-color:#efe4dc}
-.odiya-band{background-image:linear-gradient(rgba(58,23,13,.08),rgba(58,23,13,.08)),url('/assets/media/jane-odiya.png')!important;background-position:center 32%!important;background-size:cover!important}
-.booking-band{background:#d5a02b}
-.booking-band h2,.booking-band p{color:#26150d}
-.booking-band .btn-navy{background:#64270f;color:#fff}
-.contact-item small,.insight-card .tag,.insight-card a,.practice-link,.practice-number{color:#a33b17}
-.contact-rail{top:55%}
-.rail-actions{background:#d39c27}
+.hero:after{background:linear-gradient(transparent,rgba(3,17,39,.38))}
+.btn-gold{background:var(--gold);color:#071426}
+.btn-gold:hover{background:var(--gold2)}
+.btn-navy{background:var(--navy2);color:white}
+.page-hero{background:linear-gradient(135deg,var(--navy2),#0b3470)}
+.logo-animation{background:var(--navy2)}
+.logo-animation video{background:var(--navy2)}
+.partner-visual{background-image:url('/assets/media/caroline-hamba-barrister.png');background-position:center 12%;background-color:#0b1930}
+.hamba-band{background-image:linear-gradient(rgba(3,17,39,.12),rgba(3,17,39,.12)),url('/assets/media/caroline-hamba-barrister.png')!important;background-position:center 38%!important;background-size:cover!important}
+.booking-band{background:var(--gold)}
+.booking-band h2,.booking-band p{color:#071426}
+.booking-band .btn-navy{background:#071a35}
+.contact-item small,.insight-card .tag,.insight-card a,.practice-link,.practice-number{color:#a77908}
+.contact-rail{top:54%}
+.rail-actions{background:var(--gold)}
 .rail-actions a{color:#fff}
-.rail-actions a:hover{background:#b77913}
+.rail-actions a:hover{background:#b88610}
 .rail-actions svg{fill:currentColor!important;stroke:none!important;width:22px;height:22px}
-.footer{background:#32150e;color:#f7efe9}
-.footer a,.footer p,.footer span{color:#f1e3d9}
-.footer h4{color:#e8b64d}
-.footer-brand{width:min(340px,100%)}
-.footer-brand img{filter:brightness(0) invert(1);opacity:.96}
-.profile-main-photo{min-height:650px;background:#f5eee9;overflow:hidden;box-shadow:var(--shadow)}
-.profile-main-photo img{width:100%;height:100%;min-height:650px;object-fit:cover;object-position:center 18%}
+.footer{background:#020b18}
+.footer-brand{width:min(300px,100%)}
+.footer-brand img{filter:none}
+.profile-main-photo{min-height:660px;background:#eef0f3;overflow:hidden;box-shadow:var(--shadow)}
+.profile-main-photo img{width:100%;height:100%;min-height:660px;object-fit:cover;object-position:center 10%}
 .partner-profile-page{align-items:center}
 .light-points .partner-point{border-color:var(--line)}
 .light-points .partner-point span{color:var(--muted)}
-.map-shell{overflow:hidden}
+.compact-gallery{grid-template-columns:repeat(5,1fr);gap:10px;margin-top:48px}
+.compact-gallery img{height:220px;object-fit:cover;object-position:center top}
 
-/* Collapse desktop navigation before any item wraps */
+/* collapse earlier so no nav item wraps on laptops/tablets */
 @media(max-width:1180px){
   .nav-links,.nav-cta{display:none!important}
   .menu-btn{display:flex!important;position:relative}
-  .mobile-nav.open{display:flex;position:fixed;top:96px;left:0;right:0;background:#3b170d;z-index:99;flex-direction:column;padding:14px 24px 24px;border-bottom:1px solid rgba(255,255,255,.12);box-shadow:0 18px 40px rgba(0,0,0,.22)}
-  .mobile-nav a{padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.12);font-weight:700;color:white}
+  .mobile-nav.open{display:flex;position:fixed;top:96px;left:0;right:0;background:var(--navy2);z-index:99;flex-direction:column;padding:14px 24px 24px;border-bottom:1px solid rgba(255,255,255,.1);box-shadow:0 18px 40px rgba(0,0,0,.24)}
+  .mobile-nav a{padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.1);font-weight:700;color:white}
 }
 @media(max-width:1020px){
-  .brand{min-width:0;max-width:280px}
+  .brand{min-width:0}
   .mobile-nav.open{top:86px}
+  .compact-gallery{grid-template-columns:repeat(3,1fr)}
+  .profile-main-photo,.profile-main-photo img{min-height:560px}
 }
 @media(max-width:720px){
-  .site-header{background:#fff}
-  .nav{height:78px;gap:10px}
-  .brand{max-width:calc(100% - 58px);width:220px}
-  .brand-logo-wide{width:100%;height:auto;max-height:54px;object-fit:contain;object-position:left center}
-  .mobile-nav.open{top:82px;max-height:calc(100svh - 82px);overflow:auto;padding-bottom:calc(20px + env(safe-area-inset-bottom))}
-  .hero{min-height:calc(100svh - 82px);background-position:57% center;background-image:linear-gradient(90deg,rgba(38,15,8,.58),rgba(38,15,8,.34)),url('https://images.pexels.com/photos/30688596/pexels-photo-30688596.jpeg?auto=compress&cs=tinysrgb&w=1200')}
-  .hero-content{padding:50px 0 58px}
-  .display{font-size:clamp(2.38rem,11vw,3.25rem);line-height:.98;max-width:100%}
+  .site-header{background:#031127}
+  .nav{height:76px}
+  .brand{max-width:calc(100% - 54px);gap:7px}
+  .brand-mark{width:45px;height:45px}
+  .brand-name{max-width:calc(100% - 52px)}
+  .brand-name b{font-size:.82rem;white-space:normal;line-height:1.05}
+  .brand-name small{font-size:.43rem;letter-spacing:.065em;white-space:normal;line-height:1.25;margin-top:3px}
+  .mobile-nav.open{top:80px;max-height:calc(100svh - 80px);overflow:auto;padding-bottom:calc(20px + env(safe-area-inset-bottom))}
+  .hero{min-height:calc(100svh - 80px);background-position:center 48%;background-image:linear-gradient(rgba(3,17,39,.60),rgba(3,17,39,.60)),url('https://images.pexels.com/photos/1181735/pexels-photo-1181735.jpeg?auto=compress&cs=tinysrgb&w=1200')}
+  .hero-content{padding:52px 0 60px}
+  .display{font-size:clamp(2.45rem,11.5vw,3.35rem);line-height:.98;max-width:100%}
   .lead{font-size:.94rem;line-height:1.58;max-width:100%}
   .hero-actions{display:grid;grid-template-columns:1fr;gap:10px;width:100%}
-  .hero-actions .btn{width:100%;min-height:52px}
+  .hero-actions .btn{width:100%}
   .hero-meta{display:grid;grid-template-columns:1fr;gap:8px}
-  .partner-visual{aspect-ratio:4/5;min-height:0;background-position:center 16%!important}
+  .partner-visual{aspect-ratio:4/5;min-height:0;background-position:center 8%}
   .partner-badge{left:10px;right:10px;bottom:10px;max-width:none}
   .partner-badge strong{color:#fff!important}
-  .odiya-band{background-position:center 22%!important}
+  .hamba-band{background-position:center 28%!important}
+  .compact-gallery{grid-template-columns:1fr 1fr}
+  .compact-gallery img{height:auto;aspect-ratio:4/5;object-fit:cover;object-position:center top}
   .profile-main-photo,.profile-main-photo img{min-height:0;height:auto}
   .profile-main-photo img{object-fit:contain}
-  .contact-rail{top:63%}
+  .contact-rail{top:62%}
   .rail-toggle{width:42px;height:42px}
   .rail-actions a{width:42px;height:46px}
   .contact-rail.collapsed{transform:translate(7px,-50%)}
-  .map-shell{margin-top:18px}
+  .map-shell{margin-top:14px}
   .map-footer{padding:20px;gap:18px}
 }
 @media(max-width:420px){
   .container{width:calc(100% - 24px)}
-  .brand{width:190px}
-  .display{font-size:2.3rem}
-  .contact-rail{top:65%}
+  .brand-mark{width:41px;height:41px}
+  .brand-name b{font-size:.75rem}
+  .brand-name small{font-size:.39rem;letter-spacing:.055em}
+  .display{font-size:2.35rem}
+  .compact-gallery{grid-template-columns:1fr}
+  .compact-gallery img{aspect-ratio:auto;height:auto}
+  .contact-rail{top:64%}
 }
+
+/* Odiya & Associates Advocates — final Cecilia template adaptation */
+:root{
+  --navy:#1d247e;
+  --navy2:#11164f;
+  --blue:#2d32a4;
+  --gold:#3342d8;
+  --gold2:#5965ee;
+  --ivory:#f7f8ff;
+  --paper:#ffffff;
+  --ink:#151722;
+  --muted:#696d7d;
+  --line:#e2e5f2;
+}
+.topline{background:linear-gradient(90deg,#242a91 0 72%,#6670f0 72%)}
+.site-header{background:rgba(255,255,255,.98);border-bottom:1px solid #e4e6f0;box-shadow:0 6px 24px rgba(20,24,70,.07)}
+.brand{min-width:260px;gap:10px;color:#181c66}
+.brand-mark{width:58px;height:58px;object-fit:contain;object-position:center;flex:0 0 auto}
+.brand-name b{color:#161a63;font-size:1.02rem;white-space:nowrap}
+.brand-name small{color:#4046b8;font-size:.53rem;letter-spacing:.09em;white-space:nowrap}
+.nav{gap:20px}
+.nav-links{gap:19px;white-space:nowrap}
+.nav-links a{font-size:.72rem;letter-spacing:.085em;color:#22264e;white-space:nowrap}
+.nav-links a:hover,.nav-links a.active{color:#2c32a6}
+.nav-cta{display:inline-flex;align-items:center;justify-content:center;text-align:center;white-space:nowrap;min-height:48px;padding:0 18px;background:#2d32a4;color:#fff}
+.nav-cta:hover{background:#171c70}
+.menu-btn{border-color:#cfd3e8}
+.menu-btn span,.menu-btn:before,.menu-btn:after{background:#1d247e}
+.hero{
+  background-image:
+    linear-gradient(90deg,rgba(15,20,79,.80) 0%,rgba(15,20,79,.65) 42%,rgba(15,20,79,.34) 68%,rgba(15,20,79,.24) 100%),
+    url('https://images.pexels.com/photos/1181735/pexels-photo-1181735.jpeg?auto=compress&cs=tinysrgb&w=2200');
+  background-position:center 45%;
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+.hero:after{background:linear-gradient(transparent,rgba(10,15,58,.30))}
+.eyebrow{color:#8c98ff}
+.display span{color:#aab3ff}
+.btn-gold{background:#2d32a4;color:#fff}
+.btn-gold:hover{background:#171c70}
+.btn-navy{background:#11164f;color:#fff}
+.page-hero{background:linear-gradient(135deg,#11164f,#2f36a8)}
+.logo-animation{background:#10154f}
+.logo-animation video{background:#10154f}
+.partner-visual{background-image:url('/assets/media/caroline-hamba-barrister.png');background-position:center 12%;background-color:#eef0f8}
+.hamba-band{background-image:linear-gradient(rgba(17,22,79,.12),rgba(17,22,79,.12)),url('/assets/media/caroline-hamba-barrister.png')!important;background-position:center 25%!important;background-size:cover!important}
+.booking-band{background:#3037a7}
+.booking-band h2,.booking-band p{color:#fff}
+.booking-band .btn-navy{background:#fff;color:#171c70}
+.contact-item small,.insight-card .tag,.insight-card a,.practice-link,.practice-number{color:#343cc0}
+.contact-rail{top:54%}
+.rail-actions{background:#3139b8}
+.rail-actions a{color:#fff}
+.rail-actions a:hover{background:#161b6d}
+.footer{background:#0c1040}
+.footer-brand{width:min(320px,100%)}
+.footer-brand img{filter:none}
+.profile-main-photo{min-height:650px;background:#f1f2f7;overflow:hidden;box-shadow:var(--shadow)}
+.profile-main-photo img{width:100%;height:100%;min-height:650px;object-fit:cover;object-position:center 8%}
+.partner-profile-page{align-items:center}
+.light-points .partner-point{border-color:var(--line)}
+.light-points .partner-point span{color:var(--muted)}
+
+/* Collapse desktop nav before wrapping can happen */
+@media(max-width:1180px){
+  .nav-links,.nav-cta{display:none!important}
+  .menu-btn{display:flex!important;position:relative}
+  .mobile-nav.open{display:flex;position:fixed;top:96px;left:0;right:0;background:#11164f;z-index:99;flex-direction:column;padding:14px 24px 24px;border-bottom:1px solid rgba(255,255,255,.12);box-shadow:0 18px 40px rgba(0,0,0,.22)}
+  .mobile-nav a{padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.12);font-weight:700;color:white}
+}
+@media(max-width:1020px){
+  .brand{min-width:0}
+  .mobile-nav.open{top:86px}
+}
+@media(max-width:720px){
+  .site-header{background:#fff}
+  .nav{height:76px}
+  .brand{max-width:calc(100% - 54px);gap:7px;min-width:0}
+  .brand-mark{width:45px;height:45px;object-fit:contain}
+  .brand-name{max-width:calc(100% - 52px)}
+  .brand-name b{font-size:.80rem;white-space:normal;line-height:1.05}
+  .brand-name small{font-size:.40rem;letter-spacing:.055em;white-space:normal;line-height:1.22;margin-top:3px}
+  .mobile-nav.open{top:80px;max-height:calc(100svh - 80px);overflow:auto;padding-bottom:calc(20px + env(safe-area-inset-bottom))}
+  .hero{min-height:calc(100svh - 80px);background-position:54% center;background-image:linear-gradient(rgba(17,22,79,.56),rgba(17,22,79,.56)),url('https://images.pexels.com/photos/1181735/pexels-photo-1181735.jpeg?auto=compress&cs=tinysrgb&w=1200')}
+  .hero-content{padding:52px 0 60px}
+  .display{font-size:clamp(2.38rem,11.2vw,3.25rem);line-height:.99;max-width:100%}
+  .lead{font-size:.94rem;line-height:1.58;max-width:100%}
+  .hero-actions{display:grid;grid-template-columns:1fr;gap:10px;width:100%}
+  .hero-actions .btn{width:100%;justify-content:center;text-align:center}
+  .hero-meta{display:grid;grid-template-columns:1fr;gap:8px}
+  .partner-visual{aspect-ratio:4/5;min-height:0;background-position:center 6%}
+  .partner-badge{left:10px;right:10px;bottom:10px;max-width:none}
+  .partner-badge strong{color:#fff!important}
+  .hamba-band{background-position:center 22%!important}
+  .profile-main-photo,.profile-main-photo img{min-height:0;height:auto}
+  .profile-main-photo img{object-fit:contain}
+  .contact-rail{top:62%}
+  .rail-toggle{width:42px;height:42px}
+  .rail-actions a{width:42px;height:46px}
+  .contact-rail.collapsed{transform:translate(7px,-50%)}
+  .map-shell{margin-top:16px}
+  .map-footer{padding:20px;gap:18px}
+}
+@media(max-width:420px){
+  .container{width:calc(100% - 24px)}
+  .brand-mark{width:41px;height:41px}
+  .brand-name b{font-size:.74rem}
+  .brand-name small{font-size:.38rem;letter-spacing:.045em}
+  .display{font-size:2.30rem}
+  .contact-rail{top:64%}
+}
+.hamba-band{background-image:linear-gradient(rgba(17,22,79,.18),rgba(17,22,79,.18)),url('https://images.pexels.com/photos/5324916/pexels-photo-5324916.jpeg?auto=compress&cs=tinysrgb&w=1800')!important;background-position:center 45%!important;background-size:cover!important}
+@media(max-width:720px){.hamba-band{background-position:center 42%!important}}
+
+
+/* ODIYA & ASSOCIATES — build 41 */
+:root{--navy:#2a130b;--navy2:#0b0908;--blue:#7b2b10;--gold:#d7a12c;--gold2:#e23b2d;--ivory:#f8f3eb;--paper:#fff;--ink:#17110e;--muted:#6f625c;--line:#e9ddd5}
+.topline{background:linear-gradient(90deg,#7b2b10,#e23b2d 55%,#d7a12c)}
+.site-header{background:rgba(255,255,255,.985);border-bottom:1px solid #eee1da;box-shadow:0 7px 24px rgba(70,30,15,.07)}
+.nav{height:88px;gap:22px}.odiya-brand{display:flex;align-items:center;min-width:265px;max-width:320px;margin-right:auto;color:inherit}.brand-wordmark{display:block;width:100%;max-width:270px;height:58px;object-fit:contain;object-position:left center}
+.nav-links{gap:20px}.nav-links a{color:#3b251d;font-size:.72rem;letter-spacing:.095em;white-space:nowrap}.nav-links a:hover,.nav-links a.active{color:#c12b20}.nav-cta{background:#7b2b10;color:#fff;white-space:nowrap;text-align:center}.menu-btn{border-color:#c9b7ad}.menu-btn:before,.menu-btn:after,.menu-btn span{background:#63220f}
+.mobile-nav.open{background:#fff;border-bottom:1px solid #e8dcd5}.mobile-nav a{color:#3b251d;border-bottom:1px solid #eee1da}.mobile-nav a:last-child{background:#7b2b10;color:white;margin-top:8px;text-align:center;border:0}
+.hero{min-height:calc(100svh - 92px);background-image:linear-gradient(90deg,rgba(18,8,4,.84),rgba(18,8,4,.62) 52%,rgba(18,8,4,.20)),url('https://images.pexels.com/photos/1367274/pexels-photo-1367274.jpeg?auto=compress&cs=tinysrgb&w=2200');background-position:center 48%;background-size:cover;background-repeat:no-repeat}.hero:after{background:linear-gradient(transparent,rgba(28,10,4,.34))}.display span{color:#e6ad36}.eyebrow{color:#d8a22f}.eyebrow:before{background:#d32f25}.btn-gold{background:#7b2b10;color:white}.btn-gold:hover{background:#5f1f0c}.hero-meta i{background:#e23b2d}.btn-navy{background:#1b100c}.page-hero{background:linear-gradient(135deg,#1a0d08,#7b2b10);color:white}.page-hero p{color:#f1e8e3}
+.logo-animation{background:#fff;border:1px solid #eee1da}.logo-animation video{background:#fff}.logo-animation small{color:#7b2b10}
+.practice-card:before{background:linear-gradient(180deg,rgba(15,7,3,.18),rgba(15,7,3,.88))}.practice-number,.practice-link{color:#e5b13f}
+.partner-section{background:#100b08}.partner-visual{background-color:#f5eee9;background-size:cover;background-repeat:no-repeat}.odiya-executive-2026{background-image:url('/assets/media/jane-odiya-executive-2026.png');background-position:center 18%}.partner-badge{background:rgba(15,8,5,.92);border-left-color:#d7a12c}.partner-point b{color:#e7b144}
+.image-band .odiya-pinstripes-2026{background-image:linear-gradient(rgba(55,18,5,.08),rgba(55,18,5,.08)),url('/assets/media/jane-odiya-pinstripes-2026.png')!important;background-position:center 32%!important;background-size:cover!important;background-repeat:no-repeat!important}
+.booking-band{background:#e8b343}.booking-band h2,.booking-band p{color:#1f120c}.booking-band .btn-navy{background:#1a0d08}
+.cta-strip{background:#24120c}.footer{background:#0d0907}.footer-brand{width:min(330px,100%)}.footer-brand img{width:100%;height:auto;filter:none}.footer a:hover{color:#e8b343}
+.contact-rail .rail-toggle{background:#1a0d08}.rail-actions a{background:#d7a12c}.rail-actions a:hover{background:#b9861b}
+.profile-main-photo{background:#f6efe9}.profile-main-photo img{width:100%;height:auto;display:block;object-fit:contain;object-position:center top}.odiya-photo-pair img{object-position:center top}.odiya-gallery{margin-top:54px}.odiya-gallery figure{margin:0;background:#fff;border:1px solid var(--line)}.odiya-gallery img{height:420px;object-fit:cover;object-position:center top}.odiya-gallery figcaption{padding:12px 14px;font-size:.72rem;text-transform:uppercase;letter-spacing:.12em;color:#7b2b10;font-weight:800}
+.practice-detail-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.practice-profile-strip{display:grid;grid-template-columns:.72fr 1.28fr;gap:52px;align-items:center;margin-top:70px;padding-top:60px;border-top:1px solid var(--line)}.practice-profile-strip img{width:100%;max-height:540px;object-fit:contain;object-position:center top;background:#f8f3eb}
+@media(max-width:1180px){.nav-links{gap:14px}.nav-links a{font-size:.68rem}.odiya-brand{min-width:235px;max-width:250px}.brand-wordmark{max-width:245px}.nav-cta{padding:14px 14px;font-size:.70rem}}
+@media(max-width:1020px){.nav-links,.nav-cta{display:none}.odiya-brand{min-width:0;max-width:280px}.brand-wordmark{height:54px;max-width:260px}.partner-visual{aspect-ratio:1/1.05;min-height:0;background-position:center 18%}.practice-profile-strip{grid-template-columns:1fr}.practice-detail-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.nav{height:78px}.odiya-brand{max-width:220px}.brand-wordmark{height:46px;max-width:215px}.site-header{background:#fff}.mobile-nav.open{top:82px}.hero{min-height:calc(100svh - 82px);background-image:linear-gradient(rgba(24,9,4,.62),rgba(24,9,4,.66)),url('https://images.pexels.com/photos/1367274/pexels-photo-1367274.jpeg?auto=compress&cs=tinysrgb&w=1200');background-position:52% center}.partner-visual{aspect-ratio:1/1.08;background-size:cover;background-position:center 16%}.image-band .odiya-judicial{background-position:center 12%!important}.practice-detail-grid{grid-template-columns:1fr}.practice-profile-strip{gap:26px;margin-top:48px;padding-top:42px}.odiya-gallery{grid-template-columns:1fr}.odiya-gallery img{height:auto;object-fit:contain}.odiya-photo-pair img{height:auto;object-fit:contain}.footer-brand{width:min(280px,90vw)}}
+@media(max-width:420px){.odiya-brand{max-width:190px}.brand-wordmark{max-width:185px;height:42px}.hero{background-position:55% center}.display{font-size:2.6rem}.partner-visual{aspect-ratio:1/1.12}}
